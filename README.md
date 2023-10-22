@@ -1,2 +1,2 @@
-# fitness logger frontend
+# fitness logger
  
