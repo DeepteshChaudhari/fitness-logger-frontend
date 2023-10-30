@@ -1,7 +1,7 @@
 // get logged in user's info 
 
 export const getMe = (token) => {
-  return fetch('/api/user/me', {
+  return fetch('https://fitnessloggerb.onrender.com/api/user/me', {
     headers: {
       'Content-Type': 'application/json',
       authorization: `Bearer ${token}`,
