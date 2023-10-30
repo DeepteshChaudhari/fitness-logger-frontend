@@ -1,7 +1,7 @@
 // get logged in user's info 
 
 export const getMe = (token) => {
-  return fetch('/api/user/me', {
+  return fetch('https://api.render.com/deploy/srv-ckt7a9g168ec73fvgakg?key=EXNcHUAvDfI/api/user/me', {
     headers: {
       'Content-Type': 'application/json',
       authorization: `Bearer ${token}`,
