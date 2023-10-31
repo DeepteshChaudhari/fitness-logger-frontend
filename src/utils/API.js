@@ -2,6 +2,7 @@
 
 export const getMe = (token) => {
   return fetch('/api/user/me', {
+
     headers: {
       'Content-Type': 'application/json',
       authorization: `Bearer ${token}`,
